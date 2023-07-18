@@ -17,7 +17,7 @@ const Routes:React.FC = () =>
           {
             backgroundColor: "#1e3Ba1",
           },
-          headerTintColor: "#ffffff",
+          
           headerTitleStyle: 
           {
             fontWeight:'bold'
@@ -25,7 +25,7 @@ const Routes:React.FC = () =>
 
         }
       }>
-        <Stack.Screen name="Home" component={Home} options={{title: "Adicionar item"}} />
+        <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
       </Stack.Navigator>
       </NavigationContainer>
   )
